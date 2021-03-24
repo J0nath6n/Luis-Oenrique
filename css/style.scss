@@ -176,3 +176,48 @@ $font-family-main: 'Asap', sans-serif;
   }
 }
 /*------end section about-----*/
+
+/*----section services-----*/
+.services {
+  background-color: #f6f6f6;
+  padding: 119px 0 144px;
+
+  h3 {
+    @include h3;
+    margin: 69px 0 14px;
+    line-height: 50px;
+
+    &:before {
+      content: "";
+      display: block;
+      background-color: #717171;
+      width: 60px;
+      height: 4px;
+      margin: 0 auto 19px;
+    }
+  }
+
+  .row {
+    .top {
+      margin-bottom:  79px;
+    }
+
+    a {
+      img {
+        display: block;
+        margin: 0 auto 0;
+        transition: 0.3s;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+
+    @include p;
+    font-size: 24px;
+    color: #4d4d4d;
+    margin-bottom: 16px;
+  }
+}
+/*----end section services----*/

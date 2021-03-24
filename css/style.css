@@ -126,5 +126,43 @@
         margin-bottom: 15px; } }
 
 /*------end section about-----*/
+/*----section services-----*/
+.services {
+  background-color: #f6f6f6;
+  padding: 119px 0 144px; }
+  .services h3 {
+    font-family: "Asap", sans-serif;
+    font-size: 46px;
+    color: #717171;
+    font-weight: 700;
+    letter-spacing: 10px;
+    margin: 69px 0 14px;
+    line-height: 50px; }
+    @media screen and (max-width: 548px) {
+      .services h3 {
+        font-size: 35px; } }
+    .services h3:before {
+      content: "";
+      display: block;
+      background-color: #717171;
+      width: 60px;
+      height: 4px;
+      margin: 0 auto 19px; }
+  .services .row {
+    font-family: "Asap", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #4d4d4d;
+    margin-bottom: 16px; }
+    .services .row .top {
+      margin-bottom: 79px; }
+    .services .row a img {
+      display: block;
+      margin: 0 auto 0;
+      transition: 0.3s; }
+      .services .row a img:hover {
+        transform: scale(1.1); }
+
+/*----end section services----*/
 
 /*# sourceMappingURL=style.css.map */
