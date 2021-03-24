@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+@import url(bootstrap.css);
+@import url(owl.carousel.css);
+@import url(owl.theme.default.css);
+.d-flex {
+  display: flex; }
+
+/*------section header-----*/
+.main {
+  background-image: url("../images/bg-first_01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative; }
+  .main header {
+    padding-top: 31px; }
+    @media screen and (max-width: 767px) {
+      .main header .navbar-brand {
+        padding-left: 15px; } }
+    .main header nav {
+      display: flex; }
+      .main header nav .navbar-toggler {
+        outline: none; }
+      .main header nav ul li {
+        margin-left: 40px; }
+        @media screen and (max-width: 960px) {
+          .main header nav ul li {
+            margin-left: 0; } }
+      .main header nav ul a {
+        font-family: "Asap", sans-serif;
+        font-weight: 400;
+        color: #4d4d4d;
+        font-size: 16px;
+        border-bottom: 2px solid rgba(0, 0, 0, 0);
+        transition: 0.3s; }
+        .main header nav ul a:hover {
+          border-bottom: 2px solid #c8c8c8; }
+  .main .main-container {
+    margin-top: 15%; }
+    .main .main-container h1 {
+      font-size: 90px;
+      font-family: "Asap", sans-serif;
+      font-weight: 700;
+      margin-bottom: 4px;
+      color: #4d4d4d; }
+      @media screen and (max-width: 420px) {
+        .main .main-container h1 {
+          font-size: 70px;
+          margin-top: 25%; } }
+    .main .main-container p {
+      font-family: "Asap", sans-serif;
+      font-weight: 400;
+      font-size: 22px;
+      margin-bottom: 28px;
+      color: #909090; }
+    .main .main-container .btn {
+      font-size: 16px;
+      line-height: 1rem;
+      border-radius: 0;
+      color: #4d4d4d;
+      font-weight: 500;
+      border: 1px solid #4d4d4d;
+      padding: 19px 0 17px;
+      width: 160px;
+      margin-right: 20px;
+      transition: 0.3s; }
+      .main .main-container .btn:hover {
+        background-color: #fff;
+        color: #4d4d4d;
+        border: 1px solid #fff;
+        -webkit-box-shadow: 3px 3px 20px 0 #c8c8c8;
+        box-shadow: 3px 3px 20px 0 #c8c8c8; }
+      @media screen and (max-width: 420px) {
+        .main .main-container .btn {
+          margin-bottom: 15px; } }
+
+/*-------end section header------*/
+/*-------section about-----------*/
+.about {
+  padding: 110px 0 124px; }
+  .about h3 {
+    font-family: "Asap", sans-serif;
+    font-size: 46px;
+    color: #717171;
+    font-weight: 700;
+    letter-spacing: 10px;
+    margin: 69px 0 14px;
+    line-height: 50px; }
+    @media screen and (max-width: 548px) {
+      .about h3 {
+        font-size: 35px; } }
+    .about h3:before {
+      content: "";
+      display: block;
+      background-color: #717171;
+      width: 60px;
+      height: 4px;
+      margin: 0 0 19px 0; }
+  .about p {
+    font-family: "Asap", sans-serif;
+    font-weight: 400;
+    color: #4d4d4d;
+    font-size: 15px;
+    margin-bottom: 36px; }
+  .about img {
+    display: block;
+    width: 100%; }
+  .about .btn {
+    font-size: 16px;
+    line-height: 1rem;
+    border-radius: 0;
+    color: #4d4d4d;
+    font-weight: 500;
+    border: 1px solid #4d4d4d;
+    padding: 19px 0 17px;
+    width: 245px;
+    transition: 0.3s; }
+    .about .btn:hover {
+      background-color: #fff;
+      color: #4d4d4d;
+      border: 1px solid #fff;
+      -webkit-box-shadow: 3px 3px 20px 0 #c8c8c8;
+      box-shadow: 3px 3px 20px 0 #c8c8c8; }
+    @media screen and (max-width: 1000px) {
+      .about .btn {
+        margin-bottom: 15px; } }
+
+/*------end section about-----*/
+
+/*# sourceMappingURL=style.css.map */
