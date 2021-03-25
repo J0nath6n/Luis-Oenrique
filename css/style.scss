@@ -221,3 +221,45 @@ $font-family-main: 'Asap', sans-serif;
   }
 }
 /*----end section services----*/
+
+/*-----section skills-----*/
+.skills {
+  padding-top: 117px;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+
+}
+
+
+h3 {
+  @include h3;
+  margin-bottom: 0;
+  line-height: 50px;
+
+  &:before {
+    content: "";
+    display: block;
+    background-color: #717171;
+    width: 60px;
+    height: 4px;
+    margin: 0 auto 19px;
+  }
+
+}
+.graph {
+  display: block;
+  width: 100%;
+  -webkit-box-shadow: 3px 3px 20px 0 #c8c8c8;
+  box-shadow: 3px 3px 20px 0 #c8c8c8;
+  margin-bottom: 15px;
+  .d-flex {
+    max-width: 900px;
+    margin: auto;
+    img {
+      margin-left: 28px;
+    }
+  }
+}
