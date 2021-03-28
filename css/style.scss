@@ -316,7 +316,7 @@ h3 {
 }
 /*----end portfolio----*/
 
-/*-----section testimonials-----*/
+/*-----area testimonials-----*/
 .testimonials {
   padding: 126px 0 122px;
   @include  max-screen(960px) {
@@ -411,3 +411,141 @@ h3 {
   }
 }
 /*---- end testimonials-----*/
+/*----area num----*/
+.num {
+  background-color: #f6f6f6;
+  padding: 52px 0 64px;
+  margin-bottom: 154px;
+  @include max-screen(768px) {
+    padding: 15px;
+  }
+
+  a {
+    img {
+      display: block;
+      margin: 0 auto 31px;
+      transition: 0.3s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+/*----area num end----*/
+.bottom {
+  background-image: url('../images/bg-footer_02.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 145px;
+  position: relative;
+
+  h3 {
+    @include h3;
+    margin: 69px 0 71px;
+    line-height: 50px;
+    color: #fff;
+
+    &:before {
+      content: "";
+      display: block;
+      background-color: #fff;
+      width: 60px;
+      height: 4px;
+      margin: 0 auto 19px;
+    }
+  }
+
+  textarea {
+    resize: none;
+    height: 207px;
+    outline: none;
+  }
+
+  .btn {
+    @include btn;
+    background-color: #fff;
+    color: #4d4d4d;
+    font-size: 16px;
+    padding: 20px 0 18px;
+    width: 123px;
+    border: none;
+    border-radius: 0;
+    font-family: $font-family-main;
+    font-weight: 600;
+    outline: none;
+    transition: 0.3s;
+    margin-bottom: 58px;
+
+    &:after {
+      content: "\f105";
+      font-weight: 900;
+      font-family: "Font Awesome 5 Free";
+    }
+
+    &:hover {
+      -webkit-box-shadow: 3px 3px 20px 0 #c8c8c8;
+      box-shadow: 3px 3px 20px 0 #c8c8c8;
+    }
+  }
+
+  .up{
+    &:hover {
+      -webkit-box-shadow: 3px 3px 20px 0 #c8c8c8;
+      box-shadow: 3px 3px 10px 0 #c8c8c8;
+    }
+  }
+  footer {
+    padding: 26px 0 30px;
+    @include max-screen(768px) {
+      margin: 15px;
+    }
+    .row {
+      padding-top: 33px;
+      border-top: 1px solid #fff;
+
+      a {
+        text-decoration: none;
+        width: 27px;
+        height: 27px;
+        background-color: #fff;
+        margin-right: 8px;
+        line-height: 27px;
+        transition: 0.3s;
+
+        i {
+          color: #4d4d4d;
+        }
+
+        &:hover {
+          background-color: #0084b4;
+
+          i {
+            color: #fff;
+          }
+        }
+      }
+
+      p {
+        color: #fff;
+        font-size: 16px;
+        line-height: 27px;
+      }
+    }
+
+  }
+
+  .up {
+    width: 45px;
+    height: 41px;
+    background-color: #fff;
+    position: absolute;
+    right: 30px;
+    bottom: 193px;
+
+    i {
+      color: #4d4d4d;
+      line-height: 41px;
+    }
+  }
+}
